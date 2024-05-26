@@ -1,0 +1,85 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom, white, black); 
+    -fx-background-image: url("file:///H:/Downloads/atv1.PNG");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center; /* Centrer l'image de fond */
+    -fx-background-size: 50%; /* Taille réduite de l'image de fond */
+}
+
+.root:hover {
+    -fx-background-image: url("file:///H:/Downloads/atv1.PNG");
+}
+
+/* Bouton de connexion avec transition */
+.button {
+    -fx-background-color: #0078d7; 
+    -fx-text-fill: white; 
+    -fx-font-size: 14px; 
+    -fx-background-radius: 15; 
+    -fx-background-positon: center; 
+    -fx-padding: 10 20; 
+    -fx-effect: dropshadow(three-pass-box, #000, 10, 0, 0, 0); 
+
+    -fx-background-insets: 0, 1, 2;
+    -fx-padding: 10px 20px;
+    -fx-pref-width: 100;
+    -fx-transition: all 0.3s;
+}
+
+/* Champs de texte avec transition */
+.text-field {
+    -fx-background-color: #ffffff; /* Couleur de fond */
+    -fx-font-size: 14px; /* Taille de police */
+    -fx-text-inner-color: #000000;
+    -fx-background-radius: 5; /* Coins arrondis */
+}
+#optionsPane {
+    -fx-background-color: lightyellow; /* Exemple de couleur améliorée */
+    -fx-padding: 15; /* Espacement interne supplémentaire */
+    -fx-border-color: orange; /* Bordure colorée */
+    -fx-border-width: 3px; /* Épaisseur de la bordure */
+    -fx-border-radius: 10px; /* Coins arrondis de la bordure */
+}
+
+.optionButton {
+    -fx-background-color: lightblue; /* Couleur spécifique pour les boutons d'option */
+    -fx-text-fill: darkblue; /* Couleur du texte */
+    -fx-font-size: 15px; /* Taille de police */
+    -fx-padding: 15 30; /* Espacement interne */
+    -fx-border-radius: 5px; /* Coins arrondis */
+    -fx-margin: 5px; /* Espacement externe entre les boutons */
+}
+
+/* Bouton de validation des voeux */
+#validerVoeuxButton {
+    -fx-background-color: #4caf50; /* Couleur améliorée pour le bouton */
+    -fx-text-fill: white; /* Couleur du texte */
+    -fx-font-size: 14px; /* Taille de police */
+    -fx-padding: 10 20; /* Espacement interne */
+    -fx-border-radius: 10px; /* Coins arrondis */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 10, 0, 0, 0);
+}
+
+#autreBouton {
+    /* Styles pour d'autres boutons dans le panneau des options */
+}
+
+/* Bouton de dÃ©connexion */
+#deconnexionButton {
+    -fx-background-color: #d32f2f; /* Couleur de fond */
+    -fx-text-fill: white; /* Couleur du texte */
+    -fx-font-size: 14px; /* Taille de police */
+    -fx-background-radius: 15; /* Coins arrondis */
+    -fx-padding: 10 20; /* Espacement interne */
+}
+
+#creerButton {
+    -fx-background-color: linear-gradient(to bottom, #4caf50, #388e3c); 
+    -fx-text-fill: white; 
+    -fx-font-size: 14px; 
+    -fx-background-radius: 15; 
+    -fx-padding: 10 20;
+    -fx-effect: dropshadow(three-pass-box, #000, 10, 0, 0, 0); 
+    -fx-transition: all 0.3s;
+    -fx-background-position:center;
+}

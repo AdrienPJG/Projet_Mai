@@ -1,0 +1,58 @@
+[
+  {
+    "idOption": "001",
+    "nom": "MMF",
+    "capacité": 125,
+    "admis": [],
+    "filière": "GM"
+  },
+  {
+    "idOption": "002",
+    "nom": "FineTech",
+    "capacité": 125,
+    "admis": [],
+    "filière": "GM"
+  },
+  {
+    "idOption": "003",
+    "nom": "DataScience",
+    "capacité": 125,
+    "admis": [],
+    "filière": "GM"
+  },
+  {
+    "idOption": "004",
+    "nom": "IA",
+    "capacité": 125,
+    "admis": [],
+    "filière": "GI"
+  },
+  {
+    "idOption": "005",
+    "nom": "Cyber-Sécurité",
+    "capacité": 125,
+    "admis": [],
+    "filière": "GI"
+  },
+  {
+    "idOption": "006",
+    "nom": "BI",
+    "capacité": 125,
+    "admis": [],
+    "filière": "GI"
+  },
+  {
+    "idOption": "007",
+    "nom": "Visual Computing",
+    "capacité": 125,
+    "admis": [],
+    "filière": "GI"
+  },
+  {
+    "idOption": "008",
+    "nom": "Acturiat",
+    "capacité": 125,
+    "admis": [],
+    "filière": "GM"
+  }
+]
